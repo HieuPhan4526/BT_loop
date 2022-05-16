@@ -17,10 +17,10 @@ var content = ""
 function changeColor() {
     for (var i = 0; i < 10; i++) {
         if ((i + 1) % 2 == 0) {
-           content += content.innerHTML = "<span style = 'background-color :red ;color: white'>div chẵn</span><br>";
+           content += content.innerHTML = "<h2 style = 'background-color :red ;color: white'>div chẵn</h2><br>";
 
         }else{
-            content += content.innerHTML = "<span style = 'background-color :blue ;color: white'>div le</span><br>";
+            content += content.innerHTML = "<h2 style = 'background-color :blue ;color: white'>div le</h2><br>";
         }
 
 
